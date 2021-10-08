@@ -12,6 +12,8 @@ Complexity: O(log(n))
 
 ## Counting sort
 
+Unsorted array a[0],..., a[n-1], where |a[j]| < k
+
 Complexity O(n+k)
 
 Extra memory: k
