@@ -7,7 +7,7 @@
 class Solution(object):
     def search(self, nums, target):
         
-        left, right = 0, len(nums)-1
+        left, right = 0, len(nums) - 1
 
         while left <= right:
 
@@ -19,7 +19,7 @@ class Solution(object):
                 else:
                     return -1
 
-            curr = (left + right)//2# General process                 
+            curr = (left + right) // 2# General process                 
             if nums[curr] == target:
                 return curr
             if nums[curr] > target:
