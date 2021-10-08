@@ -13,3 +13,5 @@ Complexity: O(log(n))
 ## Counting sort
 
 Complexity O(n+k)
+
+Extra memory: k
