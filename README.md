@@ -19,3 +19,13 @@ Unsorted array a[0],..., a[n-1], where |a[j]| < k
 Complexity O(n+k)
 
 Extra memory: k
+
+## Hash function
+
+A hash function is any function that can be used to map data of arbitrary size to fixed-size values. 
+
+## Two Pointers
+
+These kind of problems usually involve two pointers: One slow-runner and the other fast-runner.
+
+There is another variation: One pointer starts from the beginning while the other pointer starts from the end.
