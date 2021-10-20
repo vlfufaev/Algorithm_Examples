@@ -20,6 +20,10 @@ Complexity O(n+k)
 
 Extra memory: k
 
+## Dynamic Programming
+
+It refers to simplifying a complicated problem by breaking it down into simpler sub-problems. Problem is expected to be solved by breaking it into sub-problems and then recursively finding the optimal solutions.
+
 ## Hash function
 
 A hash function is any function that can be used to map data of arbitrary size to fixed-size values. 
