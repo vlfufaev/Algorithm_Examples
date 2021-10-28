@@ -28,6 +28,16 @@ It refers to simplifying a complicated problem by breaking it down into simpler 
 
 A hash function is any function that can be used to map data of arbitrary size to fixed-size values. 
 
+## Sorting
+
+### Bubble Sort
+
+We look at pairs of adjacent elements in an array, one pair at a time, and swap their positions if the first element is larger than the second, or simply move on if it isn't.
+
+### Quick Sort
+
+Divide the collection in two (roughly) equal parts by taking a pseudo-random element and using it as a pivot. Elements smaller than the pivot get moved to the left of the pivot, and elements larger than the pivot to the right of it. This process is repeated for the collection to the left of the pivot, as well as for the array of elements to the right of the pivot until the whole array is sorted.
+
 ## Two Pointers
 
 These kind of problems usually involve two pointers: One slow-runner and the other fast-runner.
