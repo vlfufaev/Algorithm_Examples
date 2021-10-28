@@ -30,7 +30,7 @@ We look at pairs of adjacent elements in an array, one pair at a time, and swap 
 
 Divide the collection in two (roughly) equal parts by taking a pseudo-random element and using it as a pivot. Elements smaller than the pivot get moved to the left of the pivot, and elements larger than the pivot to the right of it. This process is repeated for the collection to the left of the pivot, as well as for the array of elements to the right of the pivot until the whole array is sorted.
 
-#%# Counting sort
+### Counting sort
 
 Unsorted array a[0],..., a[n-1], where |a[j]| < k
 
