@@ -10,15 +10,7 @@ Binary search works on sorted arrays. Binary search begins by comparing an eleme
 
 Complexity: O(log(n))
 
-## Counting sort
 
-Unsorted array a[0],..., a[n-1], where |a[j]| < k
-
- It operates by counting the number of objects that possess distinct key values, and applying prefix sum on those counts to determine the positions of each key value in the output sequence. An auxiliary array used first to store the numbers of items with each key, and then (after the second loop) to store the positions where items with each key should be placed.
-
-Complexity O(n+k)
-
-Extra memory: k
 
 ## Dynamic Programming
 
@@ -37,6 +29,16 @@ We look at pairs of adjacent elements in an array, one pair at a time, and swap 
 ### Quick Sort
 
 Divide the collection in two (roughly) equal parts by taking a pseudo-random element and using it as a pivot. Elements smaller than the pivot get moved to the left of the pivot, and elements larger than the pivot to the right of it. This process is repeated for the collection to the left of the pivot, as well as for the array of elements to the right of the pivot until the whole array is sorted.
+
+#%# Counting sort
+
+Unsorted array a[0],..., a[n-1], where |a[j]| < k
+
+ It operates by counting the number of objects that possess distinct key values, and applying prefix sum on those counts to determine the positions of each key value in the output sequence. An auxiliary array used first to store the numbers of items with each key, and then (after the second loop) to store the positions where items with each key should be placed.
+
+Complexity O(n+k)
+
+Extra memory: k
 
 ## Two Pointers
 
