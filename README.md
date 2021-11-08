@@ -10,6 +10,9 @@ Binary search works on sorted arrays. Binary search begins by comparing an eleme
 
 Complexity: O(log(n))
 
+# Bit Manipulation
+
+Sometimes binary representation of numbers can be helpdul for comparisons and calculations.
 
 
 ## Dynamic Programming
